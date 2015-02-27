@@ -39,7 +39,7 @@ public class MakeRoster {
 						
 						break;
 					case "Shooting Guard":
-						attributes.put("Dribbling",RandomNumber.normDist(1, 99, 50, 10));
+						attributes.put("Dribbling",RandomNumber.normDist(1, 99, 40, 10));
 						attributes.put("Passing",RandomNumber.normDist(1, 99, 50, 10));
 						attributes.put("Layup",RandomNumber.normDist(1, 99, 50, 10));
 						attributes.put("Midrange Shot",RandomNumber.normDist(1, 99, 60, 10));
@@ -59,7 +59,7 @@ public class MakeRoster {
 						caps.put("Athleticism",RandomNumber.normDist(1, 99, 65, 20));
 						break;
 					case "Small Forward":
-						attributes.put("Dribbling",RandomNumber.normDist(1, 99, 50, 10));
+						attributes.put("Dribbling",RandomNumber.normDist(1, 99, 30, 10));
 						attributes.put("Passing",RandomNumber.normDist(1, 99, 40, 10));
 						attributes.put("Layup",RandomNumber.normDist(1, 99, 60, 10));
 						attributes.put("Midrange Shot",RandomNumber.normDist(1, 99, 50, 10));
@@ -79,7 +79,7 @@ public class MakeRoster {
 						caps.put("Athleticism",RandomNumber.normDist(1, 99, 75, 20));
 						break;
 					case "Power Forward":
-						attributes.put("Dribbling",RandomNumber.normDist(1, 99, 30, 10));
+						attributes.put("Dribbling",RandomNumber.normDist(1, 99, 20, 10));
 						attributes.put("Passing",RandomNumber.normDist(1, 99, 30, 10));
 						attributes.put("Layup",RandomNumber.normDist(1, 99, 60, 10));
 						attributes.put("Midrange Shot",RandomNumber.normDist(1, 99, 50, 10));
@@ -99,7 +99,7 @@ public class MakeRoster {
 						caps.put("Athleticism",RandomNumber.normDist(1, 99, 75, 20));
 						break;
 					case "Center":
-						attributes.put("Dribbling",RandomNumber.normDist(1, 99, 20, 10));
+						attributes.put("Dribbling",RandomNumber.normDist(1, 99, 10, 10));
 						attributes.put("Passing",RandomNumber.normDist(1, 99, 20, 10));
 						attributes.put("Layup",RandomNumber.normDist(1, 99, 60, 10));
 						attributes.put("Midrange Shot",RandomNumber.normDist(1, 99, 40, 10));

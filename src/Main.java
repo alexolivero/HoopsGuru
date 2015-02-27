@@ -1,4 +1,3 @@
-// test #3
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -15,6 +14,13 @@ public class Main {
 					+", PERIM DEF:"+p.attributes.get("Perimeter Defense")
 					+", POST DEF:"+p.attributes.get("Post Defense")
 					+", ATH:"+p.attributes.get("Athleticism"));
+			System.out.println("CAPS: DRIB:"+p.caps.get("Dribbling")
+					+", PASS:"+p.caps.get("Passing")+", LAY:"+p.caps.get("Layup")
+					+", MID SHOT:"+p.caps.get("Midrange Shot")
+					+", 3 PT SHOT:"+p.caps.get("3 PT Shot")
+					+", PERIM DEF:"+p.caps.get("Perimeter Defense")
+					+", POST DEF:"+p.caps.get("Post Defense")
+					+", ATH:"+p.caps.get("Athleticism"));
 			System.out.println();
 		}
 	}
